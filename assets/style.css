@@ -1,8 +1,9 @@
 body{
-    background-color: #a0aabe;
+    background-color: #586F6B;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    color: #011627;
 }
 header{
     text-align: left;
@@ -44,4 +45,14 @@ a:active {
     border: 1px solid #011627;
     
 }
+
+
+footer {
+    background-color: #ffb41f;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 
