@@ -1,9 +1,11 @@
 body{
-    background-color: #586F6B;
+    background-color: #0d1117;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     color: #011627;
+    height: 100%;
+    
 }
 header{
     text-align: left;
@@ -44,15 +46,42 @@ a:active {
     margin: 5px 15px;
     border: 1px solid #011627;
     
+    
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    color: #ffb41f;
+    font-size: 100px ;
+    
+}
+.introduction{
+    color:#ffb41f;
+    display: flex;
+    left: 25%;
+    right: 25%;
+    top: 45%;
+    padding: 100px;
+    font-size: 50px;
+}
+.force{ 
+    display: flex;
+    justify-content: center;
+    color: #ffb41f;
+    font-size: 100px ;
+    padding-bottom: 100px;
+    position: relative;
+    bottom: 10%;
+    
+
 }
 
-
-footer {
+/* footer {
     background-color: #ffb41f;
     height: 150px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-  }
+} */
 
