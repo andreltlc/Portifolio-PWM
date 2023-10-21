@@ -76,12 +76,12 @@ a:active {
 
 }
 
-/* footer {
+footer {
     background-color: #ffb41f;
     height: 150px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
-} */
+}
 
