@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script src="assets/script.js"></script>
+    
+
     <title>Document</title>
 </head>
+
 <body>
     <header>
-            <div class="logo"><img src="assets/Images/Logo/1.svg" alt="Logo" id="logo" href="index.html" ></div>
-            
-            <nav>
-                
-                <ul>
-                    <li><a class="menuCabeçalho" href="Pages/Contact/contact.html">Contact</a></li>
-                    <li><a class="menuCabeçalho">Who am I</a></li>
-                    <li><a class="menuCabeçalho">Projects</a></li>
-                    <li><a href="assets/Images/Logo/2.svg"class="Download_CV">Download Resume</a></li>
-                </ul>
-                
-            </nav>
-            
+        <div class="logo"><img src="assets/Images/Logo/1.svg" alt="Logo" id="logo" href="index.html"></div>
+
+        <nav>
+
+            <ul>
+                <li><a class="menuCabeçalho" href="Pages/Contact/contact.html">Contact</a></li>
+                <li><a class="menuCabeçalho">Who am I</a></li>
+                <li><a class="menuCabeçalho">Projects</a></li>
+                <li><a href="assets/Images/Logo/2.svg" class="Download_CV">Download Resume</a></li>
+            </ul>
+
+        </nav>
+
     </header>
     <form action="" method="post">
         <fieldset>
             <label for="name">Enter your name: <input type="text" name="name" id="name" required></label>
             <label for="email">Enter your email: <input type="email" name="email" id="email" required></label>
-            <label for="number">Enter your Cellphone number:<input type="text"></label>
-            <label for="message">Enter your message:<textarea name="message" id="message" cols="10" rows="10"></textarea></label>
+            <label for="number">Enter your Cellphone number:<input type="text" id="number"></label>
+            <label for="message">Enter your message:<textarea name="message" id="message" cols="10"
+                    rows="10"></textarea></label>
 
         </fieldset>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="Submit">
     </form>
     <footer>
 
     </footer>
 </body>
+
 </html>
