@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/script.js"></script>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    
     
 
     <title>Document</title>
@@ -13,12 +14,12 @@
 
 <body>
     <header>
-        <div class="logo"><img src="assets/Images/Logo/1.svg" alt="Logo" id="logo" href="index.html"></div>
+        <div class="logo"><img src="assets/Images/Logo/1.svg" alt="Logo" id="logo" href="../../index.html"></div>
 
         <nav>
 
             <ul>
-                <li><a class="menuCabeçalho" href="Pages/Contact/contact.html">Contact</a></li>
+                <li><a class="menuCabeçalho" href="contact.html">Contact</a></li>
                 <li><a class="menuCabeçalho">Who am I</a></li>
                 <li><a class="menuCabeçalho">Projects</a></li>
                 <li><a href="assets/Images/Logo/2.svg" class="Download_CV">Download Resume</a></li>
@@ -27,7 +28,7 @@
         </nav>
 
     </header>
-    <form action="" method="POST">
+    <form action="" method="set">
         <fieldset>
             <label for="name">Enter your name: <input type="text" name="name" id="name"   required></label>
             <label for="email">Enter your email: <input type="email" name="email" id="email"  required></label>
@@ -36,11 +37,12 @@
                     rows="10"></textarea></label>
 
         </fieldset>
-        <input type="submit" value="Submit" id="Submit">
+        <button id="Submit">Submit</button>
     </form>
     <footer>
 
     </footer>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>

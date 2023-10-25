@@ -1,9 +1,8 @@
-const Parse = require('parse');
 Parse.initialize('YQ2WYcuqUMUxfuMCHtJMJ8zFCRICe6NmNkYRmiEY', '9sphafhIdfPX4HelshnPl62qYu803AjaDTz67aQT');
 Parse.serverURL = 'https://parseapi.back4app.com/'
 
-async function createParseContact(){
-    const contact = new Parse.Object('Contact');
+document.getElementById("Submit").addEventListener("click", async () => {
+    let contact = new Parse.Object("Contact");
     contact.set('Name', document.getElementById("name").value);
     contact.set('Email', document.getElementById("email").value);
     contact.set('Number', document.getElementById("number").value);
@@ -21,7 +20,4 @@ async function createParseContact(){
     } catch (error) {
         alert(`Error: ${error.message}`);
     }
-}
-document.getElementById("submit").addEventListener("click", async function (){
-    createParseContact();
 });
