@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="/assets/style.css">
-    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-    
-    
-
+    <link rel="stylesheet" href="/Pages/Contact/assets/style.css">
     <title>Document</title>
 </head>
-
 <body>
     <header>
         <div class="logo"><img src="/assets/Images/Logo/1.svg" alt="Logo" id="logo" href="../../index.html"></div>
@@ -20,7 +14,7 @@
         <nav>
 
             <ul>
-                <li><a class="menuCabeçalho" href="contact.html">Contact</a></li>
+                <li><a class="menuCabeçalho" href="/Pages/Contact/contact.html">Contact</a></li>
                 <li><a class="menuCabeçalho" href="/Pages/Who am i/whoAmI.html">Who am I</a></li>
                 <li><a class="menuCabeçalho" href="/Pages/Projects/bullsAndCows.html">Projects</a></li>
                 <li><a href="assets/Images/Logo/2.svg" class="Download_CV">Download Resume</a></li>
@@ -31,19 +25,18 @@
     </header>
     <form action="" method="set">
         <fieldset>
-            <label for="name">Enter your name: <input type="text" name="name" id="name"   required></label>
-            <label for="email">Enter your email: <input type="email" name="email" id="email"  required></label>
-            <label for="number">Enter your Cellphone number:<input type="text" id="number" ></label>
-            <label for="message">Enter your message:<textarea name="message" id="message" cols="10"
-                    rows="10"></textarea></label>
-
+            <h1>Bulls and Cows</h1>
+            <p>Adivinhe o número de 4 dígitos. <br>Bulls representam números corretos no lugar certo, e Cows representam números corretos no lugar errado.</p>
+            
+            <input type="text" id="guessInput" maxlength="4">
+            <p id="message"></p>
+            <button id="guessButton">Enviar Palpite</button>
         </fieldset>
-        <button id="Submit">Submit</button>
+        
+        
     </form>
-    <footer>
-        <a href="/index.html">Home</a>
-    </footer>
+   
+
     <script src="assets/script.js"></script>
 </body>
-
 </html>

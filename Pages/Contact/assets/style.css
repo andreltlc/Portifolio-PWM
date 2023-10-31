@@ -1,54 +1,3 @@
-body{
-    background-color: #0d1117;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: #011627;
-    height: 100%;
-    
-}
-header{
-    text-align: left;
-    border-bottom: 1px solid #011627;
-    background-color: #ffb41f;
-    padding: 20PX;
-}
-.logo{
-    height: 150px;
-    margin-top: -50px;
-    display: block;
-}
-.logo > #logo{
-    width:14%;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: right;
-    position: relative;
-    top:-35px;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #011627;
-    padding: 15px 20px;
-    border: 0px solid #fff;
-    background-color: #fff;
-    border-radius: 15px;
-    margin: 10px 10px;
-    box-shadow: #011627 -5px 5px;
-    
-}
-a:active {
-    box-shadow: none;
-    margin: 5px 15px;
-    border: 1px solid #011627;
-    
-    
-}
-
 form {
     width: 60vw;
     max-width: 500px;
@@ -72,7 +21,7 @@ label {
 }
 input,
 textarea,
-select {
+select,button {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
