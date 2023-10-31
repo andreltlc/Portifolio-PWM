@@ -1,38 +1,4 @@
-
-.welcome{
-    display: flex;
-    justify-content: center;
-    color: #ffb41f;
-    font-size: 100px ;
-    
-}
-.introduction{
-    color:#ffb41f;
-    display: flex;
-    left: 25%;
-    right: 25%;
-    top: 45%;
-    padding: 100px;
-    font-size: 50px;
-}
-.force{ 
-    display: flex;
-    justify-content: center;
-    color: #ffb41f;
-    font-size: 100px ;
-    padding-bottom: 100px;
+.github{
     position: relative;
-    bottom: 10%;
-    
-
+    left: 35%;
 }
-
-footer {
-    background-color: #ffb41f;
-    height: 150px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
