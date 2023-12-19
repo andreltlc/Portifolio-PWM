@@ -7,7 +7,7 @@ class header extends HTMLElement{
         header{
             text-align: left;
             border-bottom: 1px solid #011627;
-            background-color: #ffb41f;
+            background-color: #011627;
             padding: 20PX;
         }
         .logo{
@@ -35,7 +35,7 @@ class header extends HTMLElement{
             background-color: #fff;
             border-radius: 15px;
             margin: 10px 10px;
-            box-shadow: #011627 -5px 5px;
+            box-shadow: #000000 -5px 5px;
             
         }
         a:active {
@@ -52,9 +52,9 @@ class header extends HTMLElement{
         <nav>
             
             <ul>
-                <li><a class="menuCabeçalho" href="Pages/Contact/contact.html">Contact</a></li>
-                <li><a class="menuCabeçalho" href="Pages/Who am i/whoAmI.html">Who am I</a></li>
-                <li><a class="menuCabeçalho" href="Pages/Projects/bullsAndCows.html">Projects</a></li>
+                <li><a class="menuCabeçalho" href="/Pages/Contact/contact.html">Contact</a></li>
+                <li><a class="menuCabeçalho" href="/Pages/Who am i/whoAmI.html">Who am I</a></li>
+                <li><a class="menuCabeçalho" href="/Pages/Projects/bullsAndCows.html">Projects</a></li>
                 <li><a href="/assets/Document/Currículo André Carvalho (1).pdf" class="Download_CV">Download Resume</a></li>
             </ul>
             
