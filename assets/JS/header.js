@@ -35,7 +35,7 @@ class header extends HTMLElement{
             background-color: #fff;
             border-radius: 15px;
             margin: 10px 10px;
-            box-shadow: #000000 -5px 5px;
+            box-shadow: #ffb41f -5px 5px;
             
         }
         a:active {
