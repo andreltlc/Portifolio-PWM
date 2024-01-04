@@ -7,6 +7,29 @@
     <title>André Carvalho</title>
 </head>
 <body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDQq7GDQUZ4G99C4OfLUaBGDnGFfKMGA5c",
+          authDomain: "andreltlc.firebaseapp.com",
+          projectId: "andreltlc",
+          storageBucket: "andreltlc.appspot.com",
+          messagingSenderId: "375073213397",
+          appId: "1:375073213397:web:479eb3bcb63a4cd0c18b5c",
+          measurementId: "G-E6MEQL81G2"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
     <script src="/assets/JS/header.js"></script>
     <script src="/assets/JS/footer.js"></script>
     <my-header></my-header>
